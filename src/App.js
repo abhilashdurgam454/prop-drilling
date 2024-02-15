@@ -1,11 +1,13 @@
 import React from 'react';
 import './style.css';
+import ComponentA from './ComponentA';
 
 export default function App() {
+
+    const name="this is a  react project"
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+     <ComponentA name={name}/>
     </div>
   );
 }
